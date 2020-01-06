@@ -22,5 +22,7 @@ class LoginPage{
     console.log(await this.alertErro.getText());
     return await this.alertErro.getText();
   }
+
 }
+
 module.exports = new LoginPage();
