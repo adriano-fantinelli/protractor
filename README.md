@@ -2,8 +2,8 @@
 Esse é um repositório com um exemplo de como realizar uma automação de testes para aplicações Web utilizando o selenium WebDriver e o framework Protractor na linguagem JavaScript.
 
 # Configurando o Ambiente
-    1. Escolher uma IDE de JavaScript
-    2. Instalar o protractor 
+   1. Escolher uma IDE de JavaScript
+   2. Instalar o protractor 
    
 # Para iniciar os testes utilize esses comandos no terminal da máquina
     npm install -g protractor
