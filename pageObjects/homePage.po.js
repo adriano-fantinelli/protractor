@@ -1,4 +1,4 @@
-const {element, browser } = require("protractor");
+const { element, browser } = require("protractor");
 
 class HomePage{
     
