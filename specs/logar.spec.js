@@ -6,7 +6,7 @@ const { expect } = require('chai');
 
 describe('Login no Case:', function() {
  
-  beforeAll( function() { homePage.visit(); });
+  beforeAll( function() { homePage.visit(); })
 
   it('Realizar Login com dados inválidos', async function(){
     await homePage.btnLogin.click();
