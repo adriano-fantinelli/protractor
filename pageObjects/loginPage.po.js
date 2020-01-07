@@ -11,14 +11,14 @@ class LoginPage{
   get alertErro() { return element(by.css('.alert-danger > ol > li')) }
 
   async login(email, senha) {
-    browser.wait(ExpectedConditions.elementToBeClickable(this.etEmail), 3000)
+    browser.wait(ExpectedConditions.elementToBeClickable(this.etEmail), 3000);
     this.etEmail.sendKeys(email);
     this.etSenha.sendKeys(senha);
     this.btnSignIn.click();
 }
 
   async getMensagemErro(){
-    browser.wait(ExpectedConditions.elementToBeClickable(this.alertErro), 3000)
+    browser.wait(ExpectedConditions.elementToBeClickable(this.alertErro), 3000);
     console.log(await this.alertErro.getText());
     return await this.alertErro.getText();
   }
