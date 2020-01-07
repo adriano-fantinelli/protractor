@@ -12,6 +12,7 @@ Esse é um repositório com um exemplo de como realizar uma automação de teste
 # Para executar o programa, digite isso no terminal da IDE
     npm install chai
    Após reiniciar a IDE utilize
+    
     protractor conf.js
   
 Tutorial para realizar automação de testes com protractor: https://medium.com/@adriano.fantinelli/automa%C3%A7%C3%A3o-de-testes-com-protractor-e-selenium-webdriver-para-aplica%C3%A7%C3%B5es-web-8d80fe440b20
