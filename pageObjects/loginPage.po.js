@@ -2,9 +2,9 @@ const {element, browser } = require("protractor");
 
 class LoginPage{
     
-  get etEmail() { return element(by.css('#email')) }
+  get etEmail() { return element(by.id('email')) }
 
-  get etSenha() { return element(by.css('#passwd')) }
+  get etSenha() { return element(by.id('passwd')) }
 
   get btnSignIn() { return element(by.css('#SubmitLogin')) }    
 
@@ -22,7 +22,5 @@ class LoginPage{
     console.log(await this.alertErro.getText());
     return await this.alertErro.getText();
   }
-
 }
-
 module.exports = new LoginPage();
